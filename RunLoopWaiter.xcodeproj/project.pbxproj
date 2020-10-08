@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BE9F02F252F410000FC76D8 /* RunLoopWaiterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F02E252F410000FC76D8 /* RunLoopWaiterApp.swift */; };
+		4BE9F031252F410000FC76D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F030252F410000FC76D8 /* ContentView.swift */; };
+		4BE9F033252F410100FC76D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE9F032252F410100FC76D8 /* Assets.xcassets */; };
+		4BE9F036252F410100FC76D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE9F035252F410100FC76D8 /* Preview Assets.xcassets */; };
+		4BE9F03F252F410900FC76D8 /* RunLoopWaiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F03E252F410900FC76D8 /* RunLoopWaiter.swift */; };
+		4BE9F048252F562B00FC76D8 /* RunLoopWaiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F047252F562B00FC76D8 /* RunLoopWaiterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BE9F04A252F562B00FC76D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BE9F023252F410000FC76D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE9F02A252F410000FC76D8;
+			remoteInfo = RunLoopWaiter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BE9F02B252F410000FC76D8 /* RunLoopWaiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunLoopWaiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE9F02E252F410000FC76D8 /* RunLoopWaiterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopWaiterApp.swift; sourceTree = "<group>"; };
+		4BE9F030252F410000FC76D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BE9F032252F410100FC76D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BE9F035252F410100FC76D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BE9F037252F410100FC76D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE9F03E252F410900FC76D8 /* RunLoopWaiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopWaiter.swift; sourceTree = "<group>"; };
+		4BE9F045252F562B00FC76D8 /* RunLoopWaiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLoopWaiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE9F047252F562B00FC76D8 /* RunLoopWaiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopWaiterTests.swift; sourceTree = "<group>"; };
+		4BE9F049252F562B00FC76D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BE9F028252F410000FC76D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F042252F562B00FC76D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BE9F022252F410000FC76D8 = {
+			isa = PBXGroup;
+			children = (
+				4BE9F02D252F410000FC76D8 /* RunLoopWaiter */,
+				4BE9F046252F562B00FC76D8 /* RunLoopWaiterTests */,
+				4BE9F02C252F410000FC76D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BE9F02C252F410000FC76D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F02B252F410000FC76D8 /* RunLoopWaiter.app */,
+				4BE9F045252F562B00FC76D8 /* RunLoopWaiterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BE9F02D252F410000FC76D8 /* RunLoopWaiter */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F02E252F410000FC76D8 /* RunLoopWaiterApp.swift */,
+				4BE9F030252F410000FC76D8 /* ContentView.swift */,
+				4BE9F03E252F410900FC76D8 /* RunLoopWaiter.swift */,
+				4BE9F032252F410100FC76D8 /* Assets.xcassets */,
+				4BE9F037252F410100FC76D8 /* Info.plist */,
+				4BE9F034252F410100FC76D8 /* Preview Content */,
+			);
+			path = RunLoopWaiter;
+			sourceTree = "<group>";
+		};
+		4BE9F034252F410100FC76D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F035252F410100FC76D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BE9F046252F562B00FC76D8 /* RunLoopWaiterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BE9F047252F562B00FC76D8 /* RunLoopWaiterTests.swift */,
+				4BE9F049252F562B00FC76D8 /* Info.plist */,
+			);
+			path = RunLoopWaiterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BE9F02A252F410000FC76D8 /* RunLoopWaiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE9F03A252F410100FC76D8 /* Build configuration list for PBXNativeTarget "RunLoopWaiter" */;
+			buildPhases = (
+				4BE9F027252F410000FC76D8 /* Sources */,
+				4BE9F028252F410000FC76D8 /* Frameworks */,
+				4BE9F029252F410000FC76D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunLoopWaiter;
+			productName = RunLoopWaiter;
+			productReference = 4BE9F02B252F410000FC76D8 /* RunLoopWaiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BE9F044252F562B00FC76D8 /* RunLoopWaiterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE9F04C252F562B00FC76D8 /* Build configuration list for PBXNativeTarget "RunLoopWaiterTests" */;
+			buildPhases = (
+				4BE9F041252F562B00FC76D8 /* Sources */,
+				4BE9F042252F562B00FC76D8 /* Frameworks */,
+				4BE9F043252F562B00FC76D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE9F04B252F562B00FC76D8 /* PBXTargetDependency */,
+			);
+			name = RunLoopWaiterTests;
+			productName = RunLoopWaiterTests;
+			productReference = 4BE9F045252F562B00FC76D8 /* RunLoopWaiterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BE9F023252F410000FC76D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4BE9F02A252F410000FC76D8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4BE9F044252F562B00FC76D8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4BE9F02A252F410000FC76D8;
+					};
+				};
+			};
+			buildConfigurationList = 4BE9F026252F410000FC76D8 /* Build configuration list for PBXProject "RunLoopWaiter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BE9F022252F410000FC76D8;
+			productRefGroup = 4BE9F02C252F410000FC76D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BE9F02A252F410000FC76D8 /* RunLoopWaiter */,
+				4BE9F044252F562B00FC76D8 /* RunLoopWaiterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BE9F029252F410000FC76D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE9F036252F410100FC76D8 /* Preview Assets.xcassets in Resources */,
+				4BE9F033252F410100FC76D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F043252F562B00FC76D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BE9F027252F410000FC76D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE9F031252F410000FC76D8 /* ContentView.swift in Sources */,
+				4BE9F03F252F410900FC76D8 /* RunLoopWaiter.swift in Sources */,
+				4BE9F02F252F410000FC76D8 /* RunLoopWaiterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE9F041252F562B00FC76D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE9F048252F562B00FC76D8 /* RunLoopWaiterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BE9F04B252F562B00FC76D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE9F02A252F410000FC76D8 /* RunLoopWaiter */;
+			targetProxy = 4BE9F04A252F562B00FC76D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE9F038252F410100FC76D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BE9F039252F410100FC76D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE9F03B252F410100FC76D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RunLoopWaiter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RunLoopWaiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.RunLoopWaiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE9F03C252F410100FC76D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RunLoopWaiter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RunLoopWaiter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.RunLoopWaiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BE9F04D252F562B00FC76D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RunLoopWaiterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.RunLoopWaiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunLoopWaiter.app/RunLoopWaiter";
+			};
+			name = Debug;
+		};
+		4BE9F04E252F562B00FC76D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RunLoopWaiterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.RunLoopWaiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunLoopWaiter.app/RunLoopWaiter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BE9F026252F410000FC76D8 /* Build configuration list for PBXProject "RunLoopWaiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE9F038252F410100FC76D8 /* Debug */,
+				4BE9F039252F410100FC76D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE9F03A252F410100FC76D8 /* Build configuration list for PBXNativeTarget "RunLoopWaiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE9F03B252F410100FC76D8 /* Debug */,
+				4BE9F03C252F410100FC76D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE9F04C252F562B00FC76D8 /* Build configuration list for PBXNativeTarget "RunLoopWaiterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE9F04D252F562B00FC76D8 /* Debug */,
+				4BE9F04E252F562B00FC76D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BE9F023252F410000FC76D8 /* Project object */;
+}
