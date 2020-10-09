@@ -41,21 +41,33 @@ public final class Waiter {
 
 extension RunLoop {
 
-  public func wait<Result>(resultType: Result.Type? = nil, perform: (_ fullfill: @escaping (Result) -> Void) -> Void) -> Result {
+  public func wait<Result>(
+    resultType: Result.Type? = nil,
+    perform: @escaping (_ fullfill: @escaping (Result) -> Void) -> Void
+  ) -> Result {
 
-    var isFinished = false
     var result: Result!
 
-    perform { r in
-      result = r
-      isFinished = true
+    let runLoopModeRaw = RunLoop.Mode.default.rawValue._bridgeToObjectiveC()
+    let cfRunLoop = getCFRunLoop()
+
+    CFRunLoopPerformBlock(getCFRunLoop(), runLoopModeRaw) {
+      perform { r in
+        result = r
+        CFRunLoopPerformBlock(cfRunLoop, runLoopModeRaw) {
+          CFRunLoopStop(cfRunLoop)
+        }
+        CFRunLoopWakeUp(cfRunLoop)
+      }
+
     }
 
-    while !isFinished {
-      run(mode: .default, before: Date(timeIntervalSinceNow: 0.001))
-    }
+    CFRunLoopWakeUp(cfRunLoop)
+
+    CFRunLoopRun()
 
     return result
   }
+  
 }
 

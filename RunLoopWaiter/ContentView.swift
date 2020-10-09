@@ -13,7 +13,7 @@ struct ContentView: View {
       Text("Hello, world!")
         .padding()
       Button("start") {
-        _await3()
+        _await2()
       }
     }
   }
